@@ -7,15 +7,6 @@
   padding-bottom: 0px;
   margin-bottom: -20px;
 }
-.subtitle {
-  text-align: center;
-  background-color: #0A1040;
-  color: white;
-  font-family: Futura;
-  border: 3px solid white;
-  padding-bottom: 0px;
-  margin-bottom: -20px;
-}
 
 
 .date {
@@ -62,9 +53,16 @@ h4 {
   width: 15%;
 }
 
+.social {
+  background-color: #0A1040;
+  font-family: Futura;
+  color: white;
+  border: 2px solid white;
+  width: 15%;
+}
 #postimg {
-  margin-left: 25%;
-  margin-top: -240px;
+  margin-left: 6%;
+  margin-top: -403px;
   text-align: center;
   margin-bottom: 30px;
   width: 50%;
@@ -75,7 +73,7 @@ h4 {
   margin-left: 25%;
   width: 50%;
   text-align: left;
-  border: 1px dashed black;
+
 }
 
 p {
