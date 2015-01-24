@@ -17,6 +17,13 @@
   margin-bottom: -20px;
 }
 
+#postimg {
+  margin-left: 25%;
+  margin-top: -240px;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 50%;
+}
 
 .date {
   background-color: #0A1040;
@@ -62,13 +69,7 @@ h4 {
   width: 15%;
 }
 
-#postimg {
-  margin-left: 25%;
-  margin-top: -240px;
-  text-align: center;
-  margin-bottom: 30px;
-  width: 50%;
-}
+
 
 
 .content {
@@ -89,4 +90,12 @@ a:visited {
 
 a:hover {
 color: yellow;
+}
+
+.home {
+  background-color: #0A1040;
+  font-family: Futura;
+  color: white;
+  border: 2px solid white;
+  width: 15%;
 }
