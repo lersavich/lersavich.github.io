@@ -1,90 +1,98 @@
 .post {
   text-align: center;
-  background-color: #0A1040;
-  color: white;
-  font-family: Futura;
-  border: 3px solid white;
-  padding-bottom: 0px;
-  margin-bottom: -20px;
+  width: 100%;
+  background-color:#0A1040;
+  font-family: futura, sans-serif;
+  color:white;
+
 }
 
-
-.date {
-  background-color: #0A1040;
-  font-family: Futura;
-  color: white;
-    border: 2px solid white;
-  width: 15%;
-  margin-top: 35px;
-}
-
-h4 {
+.subtitle {
   text-align: center;
+  width: 100%;
+  background-color:#0A1040;
+  font-family: futura, sans-serif;
+  color:white;
 }
 
 .about {
-  background-color: #0A1040;
-  font-family: Futura;
-  color: white;
-  border: 2px solid white;
-  width: 15%;
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
+  color:white;
+   font-family: futura, sans-serif;
+  text-align: center;
 }
 
 .cultblogs {
-  background-color: #0A1040;
-  font-family: Futura;
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
   color: white;
-  border: 2px solid white;
-  width: 15%;
+   font-family: futura, sans-serif;
+  position: relative;
+  text-align: center;
+
+}
+.techblogs {
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
+  color: white;
+   font-family: futura, sans-serif;
+  position: relative;
+  text-align: center;
+
 }
 
-.techblogs {
-  background-color: #0A1040;
-  font-family: Futura;
-  color: white;
-  border: 2px solid white;
-  width: 15%;
+.contact {
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
+  color:white;
+   font-family: futura, sans-serif;
+  text-align: center;
+  position: relative;
 }
+
 .projects {
-  background-color: #0A1040;
-  font-family: Futura;
-  color: white;
-  border: 2px solid white;
-  width: 15%;
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
+  color:white;
+   font-family: futura, sans-serif;
+  text-align: center;
+  position: relative;
 }
 
 .social {
-  background-color: #0A1040;
-  font-family: Futura;
-  color: white;
-  border: 2px solid white;
-  width: 15%;
-}
-#postimg {
-  margin-left: 6%;
-  margin-top: -403px;
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
+  color:white;
+   font-family: futura, sans-serif;
   text-align: center;
-  margin-bottom: 30px;
-  width: 50%;
+  position: relative;
 }
 
+.footer{
+  width: 100%;
+  font-family: futura, sans-serif;
+  text-align: right;
+  background-color: #0A1040 ;
+  color:white;
+  bottom: 0;
+  left: 0;
 
-.content {
-  margin-left: 25%;
-  width: 50%;
-  text-align: left;
+
+
 
 }
-
-p {
-  font-family: Futura;
-  font-size: 18px;
-}
-
 a:visited {
-  color: white;
+  color:white;
 }
 
 a:hover {
 color: yellow;
 }
+

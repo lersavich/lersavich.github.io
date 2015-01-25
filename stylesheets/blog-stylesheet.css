@@ -1,101 +1,106 @@
 .post {
   text-align: center;
-  background-color: #0A1040;
-  color: white;
-  font-family: Futura;
-  border: 3px solid white;
-  padding-bottom: 0px;
-  margin-bottom: -20px;
+  width: 100%;
+  background-color:#0A1040;
+  font-family: futura, sans-serif;
+  color:white;
+
 }
+
 .subtitle {
   text-align: center;
-  background-color: #0A1040;
-  color: white;
-  font-family: Futura;
-  border: 3px solid white;
-  padding-bottom: 0px;
-  margin-bottom: -20px;
+  width: 100%;
+  background-color:#0A1040;
+  font-family: futura, sans-serif;
+  color:white;
+  position: relative;
 }
 
-#postimg {
-  margin-left: 25%;
-  margin-top: -240px;
+.home {
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
+  color:white;
+   font-family: futura, sans-serif;
+   position: relative;
   text-align: center;
-  margin-bottom: 30px;
-  width: 50%;
-}
 
-.date {
-  background-color: #0A1040;
-  font-family: Futura;
-  color: white;
-    border: 2px solid white;
-  width: 15%;
-  margin-top: 35px;
-}
-
-h4 {
-  text-align: center;
-}
-
-.about {
-  background-color: #0A1040;
-  font-family: Futura;
-  color: white;
-  border: 2px solid white;
-  width: 15%;
 }
 
 .cultblogs {
-  background-color: #0A1040;
-  font-family: Futura;
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
   color: white;
-  border: 2px solid white;
-  width: 15%;
-}
+   font-family: futura, sans-serif;
+  position: relative;
+  text-align: center;
 
+}
 .techblogs {
-  background-color: #0A1040;
-  font-family: Futura;
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
   color: white;
-  border: 2px solid white;
-  width: 15%;
+   font-family: futura, sans-serif;
+  position: relative;
+  text-align: center;
+
 }
+
+.contact {
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
+  color:white;
+   font-family: futura, sans-serif;
+  text-align: center;
+  position: relative;
+}
+
 .projects {
-  background-color: #0A1040;
-  font-family: Futura;
-  color: white;
-  border: 2px solid white;
-  width: 15%;
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
+  color:white;
+   font-family: futura, sans-serif;
+  text-align: center;
+  position: relative;
 }
 
+.social {
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
+  color:white;
+   font-family: futura, sans-serif;
+  text-align: center;
+  position: relative;
+}
 
-
+.footer{
+  width: 100%;
+  font-family: futura, sans-serif;
+  text-align: right;
+  background-color: #0A1040 ;
+  color:white;
+  bottom: 0;
+  left: 0;}
 
 .content {
-  margin-left: 25%;
+  margin-top: -240px;
+  margin-left: 300px;
   width: 50%;
+  position: relative;
   text-align: left;
-  border: 1px dashed black;
-}
-
-p {
-  font-family: Futura;
-  font-size: 18px;
+  color:#0A1040;
 }
 
 a:visited {
-  color: white;
+  color:white;
 }
 
 a:hover {
 color: yellow;
 }
 
-.home {
-  background-color: #0A1040;
-  font-family: Futura;
-  color: white;
-  border: 2px solid white;
-  width: 15%;
-}
