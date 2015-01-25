@@ -26,7 +26,7 @@
   text-align: center;
 
 }
-.about {
+.contact {
  width: 200px;
   height:50px;
   background-color: #0A1040 ;
@@ -87,7 +87,7 @@
   left: 0;}
 
 .content {
-  margin-top: -250px;
+  margin-top: -350px;
   margin-left: 300px;
   width: 50%;
   position: relative;
