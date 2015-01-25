@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-.blogs {
+.cultblogs {
   width: 200px;
   height:50px;
   background-color: #0A1040 ;
@@ -32,6 +32,17 @@
    font-family: futura, sans-serif;
   position: relative;
   text-align: center;
+
+}
+.techblogs {
+  width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
+  color: white;
+   font-family: futura, sans-serif;
+  position: relative;
+  text-align: center;
+
 }
 
 .contact {
@@ -73,15 +84,18 @@
   bottom: 0;
   left: 0;
 
-
+li {
+  background-color: #0A1040;
+  text-align: center;
+  margin-left: 50px;
+}
 
 
 }
 a:visited {
-  color:white;
+  color:#0A1040;
 }
 
 a:hover {
-color: yellow;
+color: #0A1040;
 }
-
