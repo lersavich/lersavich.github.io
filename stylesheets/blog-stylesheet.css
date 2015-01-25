@@ -26,6 +26,15 @@
   text-align: center;
 
 }
+.about {
+ width: 200px;
+  height:50px;
+  background-color: #0A1040 ;
+  color:white;
+   font-family: futura, sans-serif;
+   position: relative;
+  text-align: center;
+}
 
 .blogs {
   width: 200px;
