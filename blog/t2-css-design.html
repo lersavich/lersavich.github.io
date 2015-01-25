@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <head>
-  <title>Your page title here</title>
+  <title>Class and IDs</title>
   <meta charset="UTF-8">
-  <!--delete comment for refresh meta tag <meta http-equiv="refresh" content="3">-->
-  <link rel="stylesheet" type="text/css" href="../blog-stylesheet.css">
+  <meta http-equiv="refresh" content="3">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
 </head>
 
 <main>
-  <div class="post"><h1>Post Title</h1></div>
-  <div class="subtitle"><h2>Subtitle</h2></div>
-  <div class="date"><h4>Today's Date</h4></div>
-  <div class="about"><h4>About Me</h4></div>
-  <div class="blogs"><h4>Blogs</h4></div>
+ <div class="post"><h1>Class and ID's</h1></div>
+  <div class="subtitle"><h2>Style is in Session</h2></div>
+  <div class="home"><h4><a href=http://tylermowbray.github.io>Home</a></h4></div>
+  <div class="blogs"><h4><a href=http://tylermowbray.github.io/blog/allblogs.html>Blogs</a></h4></div>
+  <div class="social"><h4>Social Media</h4></div>
   <div class="projects"><h4>Projects</h4></div>
-  <div id="postimg">
-      <img src="http://www.thehackerati.com/blog/assets/img/dbc.png"/>
-  </div>
+  <div class="contact"><h4>Contact Me</h4></div>
+
   <section class="content">
     <p id="first">
-      Your first paragraph goes here.
+      Classes and ID’s are extremely useful when using CSS (Cascading Style Sheets), but many people struggle with how to use them properly.  In this short blog, I want to give you a few examples of what the best practices for each are and how to use them.
     </p>
     <p id="second">
-        Your second one goes here.
+        You will want to use Classes when you need to style multiple HTML elements at the same time.  For example, lets say that we are trying to style an article for a website that is using multiple paragraphs and we need them all to display the same font, size, and color.  This isn’t like Microsoft Word where we just highlight everything and hit the Time New Roman Button, there’s a lot more that needs to be done and this is why Classes can be so handy.  (Please click here for an example of using Classes”  You will notice that
     </p>
     <p id="third">
-        aaand your third one goes here.
+        Now that we understand Classes, what’s an ID?  Unlike classes that can be used to style multiple elements at the same time, the ID Selector is used to style for a single, unique element.
     </p>
+
+    <p>
+    Notice that in this image that the first, third, and last paragraphs are all in blue.  While the 4th paragraph is in red.  These all have color due to both the Class and ID.  But how did we even make this happen and why is the 2nd line plain?
+    </p>
+    ![site map](blog/endresult.png)
+     ![site map](blog/classIDHTML.png)
+      ![site map](blog/classIDCSS.png)
 
   </section>
 </main>

@@ -22,6 +22,7 @@
   color:white;
    font-family: futura, sans-serif;
   text-align: center;
+
 }
 
 .blogs {
@@ -32,6 +33,7 @@
    font-family: futura, sans-serif;
   position: relative;
   text-align: center;
+
 }
 
 .contact {
@@ -42,6 +44,7 @@
    font-family: futura, sans-serif;
   text-align: center;
   position: relative;
+
 }
 
 .projects {
@@ -52,6 +55,7 @@
    font-family: futura, sans-serif;
   text-align: center;
   position: relative;
+
 }
 
 .social {
@@ -62,6 +66,7 @@
    font-family: futura, sans-serif;
   text-align: center;
   position: relative;
+
 }
 
 .footer{
@@ -84,4 +89,3 @@ a:visited {
 a:hover {
 color: yellow;
 }
-
