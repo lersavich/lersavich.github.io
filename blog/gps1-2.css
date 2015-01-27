@@ -1,0 +1,26 @@
+    h1 {
+        text-align: center;
+        width: 100%;
+        font-family: futura;
+        }
+
+    h3 {
+        display: inline-block;
+        width: 49%;
+        font-family: futura;
+        text-align: center;
+
+    }
+
+    p {
+        font-family: futura;
+        border: 1px solid black;
+        display: inline-block;
+        text-align: center;
+        width: 49%;
+    }
+
+    #last {
+        display: block;
+        margin: 0 auto;
+    }
