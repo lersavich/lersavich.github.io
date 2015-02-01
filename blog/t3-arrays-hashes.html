@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+  <title>Class and IDs</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+ <div class="post"><h1>Storage Wars</h1></div>
+  <div class="subtitle"><h2>Arrays and Hashes</h2></div>
+  <div class="home"><h4><a href=http://tylermowbray.github.io>Home</a></h4></div>
+  <div class="blogs"><h4><a href=http://tylermowbray.github.io/blog/allblogs.html>Blogs</a></h4></div>
+  <div class="social"><h4>Social Media</h4></div>
+  <div class="projects"><h4>Projects</h4></div>
+  <div class="contact"><h4>Contact Me</h4></div>
+
+  <section class="content">
+    <p id="first">
+     Arrays and hashes are two really cool ways to store information in Ruby.  Whether you are looking to store a set of integers, strings, or floats.. hashes and arrays will be your choice.  But what is the difference between them and how do we use them?  In this blog, we will take a look at examples of arrays and hashes and how they are used.
+    </p>
+    <p id="second">
+       First, let’s talk about arrays.
+    </p>
+       <p id="third">
+        To simplify things, an array is basically an ordered list on your computer.  Let’s take a look at this array as an example:
+      </p>
+
+      <p>
+      <img src="array_mlb.png" alt="MLB" style="width:700px; height:400px" >
+      </p>
+      <p>
+        You can see that we have called our array: mlb, and inside our array we have three strings, “Reds”, “Cubs”, and “Pirates”.  All three of these strings are Major League Baseball teams, which would help explain why we named our array: mlb.
+      </p>
+
+    <p>
+    Now that we have created the array, we will need to take a look at the example below to see how we can go out and obtain the information we put into it.  Something important to know about arrays is that they are indexed by integers.
+    </p>
+     <p>
+        <img src="array_mlb2.png" alt="MLB2" >
+      </p>
+
+    <p>
+    In this example, we see the name of our array: mlb, and we also see square brackets with numbers inside them?  What is that exactly?  This is what I meant by arrays being integer indexed. When we can see the numbers [0], [1], [2], [3] next to mlb, we are simply assigning them to the array mlb. If we run this code, we will see it print out in order the same list of mlb teams we put in the array.
+    </p>
+
+<p>
+  Take a look at this next example below to see what the output would look like:
+    </p>
+<p>
+        <img src="array_term.png" alt="Array Term" >
+      </p>
+<p>
+  In the example above, we see that it put out in order: Reds, Cubs, Pirates, and an empty space(nil).
+</p>
+<p>
+ Now that we have a pretty good understanding of an Array.  What are hashes?
+</p>
+<p>
+ Just like an array, hashes are another way to store information, but while arrays were integer indexed, hashes are indexed by other objects like strings and consist of key-value pairs.  Let’s take a look an example of a hash:
+</p>
+<p>
+  <img src="hash_mlb.png" alt="Array Term" >
+</p>
+<p>
+  You can see that in the example shown above, we have decided to call our hash mlb and inside this hash we are keeping track of each MLB teams best player.  In key-value pair terms; our key is the MLB team, and our value is their best player.
+</p>
+<p>
+  Using the information that we just stored in our hash, we can now look up a teams best player.  Let’s take a look at an example of how that is done:
+</p>
+<p>
+  <img src="hash_mlb2.png" alt="Array Term" >
+</p>
+<p>
+ You can see why it is important for us to use hashes in this type of example, because we can rely on the key that we created, rather than memorize where we assigned an integer using an array.
+</p>
+<p>
+  Finally,  let’s see what happens when we run our program:
+</p>
+<p>
+    <img src="hash_term.png" alt="Array Term" >
+</p>
+<p>
+Just like we expected, it found the best player for each team that we called for:  Joey Votto, Jon Lester, and Andrew McCutchen.  You might have also noticed that when we called for mlb[“Cardinals”], it printed out an empty space(nil).  This is because we have not yet added our sting “Cardinals” to the hash.   It went out looking for their best players, but couldn't find anything, which is why it returned nil.
+</p>
+<p>
+  It also might have returned nothing because the Cardinals have no good players.. but this is coming from a Reds fan.
+</p>
+  </section>
+</main>
