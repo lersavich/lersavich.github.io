@@ -26,7 +26,7 @@
       </p>
 
       <p>
-      <img src="array_mlb.png" alt="MLB" style="width:700px; height:400px" >
+      <img src="array_mlb.png" alt="MLB">
       </p>
       <p>
         You can see that we have called our array: mlb, and inside our array we have three strings, “Reds”, “Cubs”, and “Pirates”.  All three of these strings are Major League Baseball teams, which would help explain why we named our array: mlb.
@@ -59,7 +59,7 @@
  Just like an array, hashes are another way to store information, but while arrays were integer indexed, hashes are indexed by other objects like strings and consist of key-value pairs.  Let’s take a look an example of a hash:
 </p>
 <p>
-  <img src="hash_mlb.png" alt="Array Term" >
+  <img src="hash_mlb.png" alt="Hash MLB" >
 </p>
 <p>
   You can see that in the example shown above, we have decided to call our hash mlb and inside this hash we are keeping track of each MLB teams best player.  In key-value pair terms; our key is the MLB team, and our value is their best player.
@@ -68,7 +68,7 @@
   Using the information that we just stored in our hash, we can now look up a teams best player.  Let’s take a look at an example of how that is done:
 </p>
 <p>
-  <img src="hash_mlb2.png" alt="Array Term" >
+  <img src="hash_mlb2.png" alt="Hash MLB2" >
 </p>
 <p>
  You can see why it is important for us to use hashes in this type of example, because we can rely on the key that we created, rather than memorize where we assigned an integer using an array.
@@ -77,7 +77,7 @@
   Finally,  let’s see what happens when we run our program:
 </p>
 <p>
-    <img src="hash_term.png" alt="Array Term" >
+    <img src="hash_term.png" alt="HashTerm" >
 </p>
 <p>
 Just like we expected, it found the best player for each team that we called for:  Joey Votto, Jon Lester, and Andrew McCutchen.  You might have also noticed that when we called for mlb[“Cardinals”], it printed out an empty space(nil).  This is because we have not yet added our sting “Cardinals” to the hash.   It went out looking for their best players, but couldn't find anything, which is why it returned nil.
