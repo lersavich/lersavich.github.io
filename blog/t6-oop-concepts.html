@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <head>
-  <title>Stereotype Threat</title>
+  <title>Variable Scope Guide</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
 </head>
 
 <main>
- <div class="post"><h1>Stereotype Threat</h1></div>
+ <div class="post"><h1>Variable Scope Guide</h1></div>
   <div class="home"><h4><a href=http://tylermowbray.github.io>Home</a></h4></div>
   <div class="blogs"><h4><a href=http://tylermowbray.github.io/blog/allblogs.html>Blogs</a></h4></div>
   <div class="social"><h4>Social Media</h4></div>
@@ -14,47 +14,41 @@
   <div class="contact"><h4>Contact Me</h4></div>
 
   <section class="content">
-    <p id="first">
-      For this week’s Cultural Blog, DBC has asked us to conduct our own research on the topic of  Stereotype Threat.  What is Stereotype threat you ask?  It all began by a man named Cluade Steele, who performed the first experiments showing that stereotype threat can undermine intellectual performance.   The definition states that it’s a situational predicament in which people are or feel themselves to be at risk of confirming negative stereotypes about their social group.
-    </p>
+<p>
+Last week in my blog post, I touched on instance variables for naming and storing information as if it were being used by a Major League Scout.  In this week’s blog I wanted to touch on other variables you will come across in Ruby.   Ruby variables are referenced in many different locations in a program and the range in which a variable can be referenced is called its “scope.”
+</p>
 
-    <p>
-        While doing my research on Stereotype threat, I found these examples very helpful in better understanding the impact it has.
-      </p>
+<p>
+Here is a look at the different variable scopes in Ruby.  Think of this as a quick guide to variables.
+</p>
+<HR WIDTH="110%">g
+<h3>Instance variables</h3>
+<p>
+Instance variables are valid for a single instance of a class and start with @. As an example:  @instance_variable. Uninitialized instance variables have the value nil. Instance variables are used when you want instances of a class to have different values for a certain variable.
+</p>
 
-     <li>Here are some examples of Stereotype threat:
-
- <ul>
-
- <li>Women perform worse on math tests when they think the test will produce gender differences. (Spencer, Steele, & Quinn, 1999)</li>
- <br>
-
-  <li>White men perform worse on math tests when they think they are competing with Asians. (Aronson et al., 1999)</li>
-  <br>
-
-   <li>Black students perform worse than white students on the GRE when they think that the test is measuring their abilities, but when black students are told that the test is not measuring their abilities (when told the test is not yet valid or reliable), they perform just as well as white students. (Steele and Aronson, 1995)</li>
-   <br>
-
-    <li>Black athletes do worse than white athletes when they are led to believe that a game of miniature golf tests "sport strategic intelligence," but when the test is framed as a measure of "natural athletic ability," the white athletes do worse than the black athletes.</li>
-    <br>
-
-     <li>Female chess players perform worse than male chess players when they are aware that they are playing against a male opponent. When they are (falsely) led to believe that they are playing against another woman, they perform just as well as the male players. (Maass, D'Etolle, & Cadinu, 2008)</li>
-     <br>
-
- </ul> </li>
-
-      <p>
-      It’s really crazy if you think about it isn't it?  How can Stereotype threat be that powerful to actual effect test scores and performance in others?
-
-      </p>
-      <p>
-       When I look back at my life, I can’t really think of a time that I have been impacted by Stereotype threat but I can imagine how tough it can be to overcome some of those challenges.  I’ve always hated taking test and consider myself a “poor test taker”, so I can’t imagine having the added pressure of Stereotype threat, on top of the anxiety you already feel before a big test.
-      </p>
-      <p>
-
-        One of the questions DBC wanted us to reflect on was if we could identify ways to make others feel more conformable and reduce the impact of stereotype threat, and I really don’t think I have an answer. I think in life you should always treat others how you want to be treated, and I think that if we all spent each day living up to that, I’d hope stereotype threat, wouldn't have as big of an impact as it does today.
-      </p>
-
+<p id="third">
+        <img src="classes.png" alt="MLB"  style="width:600px" >
+<HR WIDTH="110%">
+<h3>Class variables</h3>
+<p>
+Class variables are valid for all instances of the class they are defined within and unlike Instance variables, Class Variables start with (two)@@.  As an example: @@class_variable. Class variables must be initialized before they can be used in a method and referencing an initialized class variable will produce an error. Class variables are used when you want many instances of a class to share a certain value.
+</p>
+<HR WIDTH="110%">
+<h3>Global variables</h3>
+<p>
+Global variables can be accessed anywhere and start with $.  As an example: $global_value. Uninitialized global variables have the value nil. Using global variables is generally avoided, for they can easily lead to errors and should only be used when there is a good reason.
+</p>
+<HR WIDTH="110%">
+<h3>Constants</h3>
+<p>
+Constants can be accessed from inside a class if it has been defined inside a class, otherwise they can be accessed globally. A constant begins with an uppercase letter and is mostly written in all caps.   for example: CONSTANTS. Constants must be initialized with a value and making a change to an already initialized constant will produce a warning. Constants are used for values that will not change in the program.
+</p>
+<HR WIDTH="110%">
+<h3>Local variables</h3>
+<p>
+Local variables are only valid within a local area of code, such as a method or class. Local variables have no sigil and begin with a lowercase letter or underscore, for example: local_variable. An uninitialized local variable is treated as a call to a method with no arguments.
+</p>
 
 <div class="footer"><h4>Designed by Tyler Mowbray</h4></div>
   </section>
