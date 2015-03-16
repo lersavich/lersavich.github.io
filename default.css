@@ -83,9 +83,10 @@
 
 }
 a:visited {
-  color:white;
+   text-decoration: none;
+
 }
 
 a:hover {
-color: yellow;
+ text-decoration: none;
 }
