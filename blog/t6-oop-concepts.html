@@ -42,7 +42,7 @@ Last week in my blog post, I touched on instance variables for naming and storin
 Here is a look at the different variables in Ruby.  Think of this blog as a quick guide to variables.
 </p>
 <HR WIDTH="110%">
-<h3>Instance variables</h3>
+<h4>Instance variables</h4>
 <p>
 Instance variables are valid for a single instance of a class and start with @. As an example:  @instance_variable. Uninitialized instance variables have the value nil. Instance variables are used when you want instances of a class to have different values for a certain variable.
 </p>
@@ -50,22 +50,22 @@ Instance variables are valid for a single instance of a class and start with @. 
 <p id="third">
         <img src="classes.png" alt="MLB"  style="width:600px" >
 <HR WIDTH="110%">
-<h3>Class variables</h3>
+<h4>Class variables</h4>
 <p>
 Class variables are valid for all instances of the class they are defined within and unlike Instance variables, Class Variables start with (two)@@.  As an example: @@class_variable. Class variables must be initialized before they can be used in a method and referencing an initialized class variable will produce an error. Class variables are used when you want many instances of a class to share a certain value.
 </p>
 <HR WIDTH="110%">
-<h3>Global variables</h3>
+<h4>Global variables</h4>
 <p>
 Global variables can be accessed anywhere and start with $.  As an example: $global_value. Uninitialized global variables have the value nil. Using global variables is generally avoided, for they can easily lead to errors and should only be used when there is a good reason.
 </p>
 <HR WIDTH="110%">
-<h3>Constants</h3>
+<h4>Constants</h4>
 <p>
 Constants can be accessed from inside a class if it has been defined inside a class, otherwise they can be accessed globally. A constant begins with an uppercase letter and is mostly written in all caps.   for example: CONSTANTS. Constants must be initialized with a value and making a change to an already initialized constant will produce a warning. Constants are used for values that will not change in the program.
 </p>
 <HR WIDTH="110%">
-<h3>Local variables</h3>
+<h4>Local variables</h4>
 <p>
 Local variables are only valid within a local area of code, such as a method or class. Local variables have no sigil and begin with a lowercase letter or underscore, for example: local_variable. An uninitialized local variable is treated as a call to a method with no arguments.
 </p>
