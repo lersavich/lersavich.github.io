@@ -69,14 +69,14 @@ h3  {
 
 article {
   position: relative;
-  background-color: #B80000;
+  background-color: white;
   width: 25%;
   padding: 1em;
   margin: auto;
   opacity: .8;
   border-radius: 1em;
   margin-top: 100px;
-  color: white;
+  color: #B80000;
 
 }
 
@@ -105,19 +105,22 @@ article {
   color: white;
   bottom: -195px;
   right: 8px;
-  opacity: .6;
+  opacity: .5g;
   background-color: #B80000;
   border-radius: .5em;
+}
+
+a:link {
+color: black;
 }
 
 a:visited {
 color: black;
 }
 
-a:links {
-color: black;
+a:hover {
+    color: #B80000;
 }
-
 
 
 
@@ -139,20 +142,3 @@ position: relative;
 
 }
 
-
-}
-a:visited {
-
-    text-decoration: none;
-    decoration: none
-}
-
-a:hover {
-
-    color: red;
-    decoration: none;
-}
-
-a:links {
-text-decoration: none;
-}
