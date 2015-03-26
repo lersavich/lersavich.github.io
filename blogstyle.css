@@ -67,32 +67,31 @@ h3  {
 
 }
 
-article {
-  position: relative;
-  background-color: white;
-  width: 25%;
-  padding: 1em;
-  margin: auto;
-  opacity: .8;
-  border-radius: 1em;
-  margin-top: 100px;
-  color: #B80000;
-
-}
 
 article {
   position: relative;
   background-color: white;
-  width: 25%;
+
   padding: 1em;
   margin: auto;
-  opacity: .8;
+  opacity: .9;
   border-radius: 1em;
   margin-top: 100px;
   color: #B80000;
-  overflow-y: auto;
+   width: 60%;
+    height: 700px;
+    overflow: scroll;
+
 
 }
+article.scroll {
+background-color: #00FFFF;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+}
+
 
 #footer {
   position: relative;
@@ -102,7 +101,7 @@ article {
   float: right;
   text-align: center;
   color: white;
-  bottom: -630px;
+
   right: 8px;
   opacity: .6;
   background-color: #B80000;

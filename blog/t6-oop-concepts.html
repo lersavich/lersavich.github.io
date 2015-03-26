@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <head>
-  <title>VariableGuide</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+
+ <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../blogstyle.css">
+  <title>Variable Guide</title>
 </head>
+<body>
+<img alt="Main Image" id="main_image" src="great_american.png">
 
-<main>
- <div class="post"><h1>Variable Guide</h1></div>
-  <div class="home"><h4><a href=http://tylermowbray.github.io>Home</a></h4></div>
-  <div class="blogs"><h4><a href=http://tylermowbray.github.io/blog/allblogs.html>Blogs</a></h4></div>
-  <div class="social"><h4>Social Media</h4></div>
-  <div class="projects"><h4>Projects</h4></div>
-  <div class="contact"><h4>Contact Me</h4></div>
+<h3>tyler mowbray - dev bootcamp blogs</h3>
 
-  <section class="content">
-<p>
+<div class="mowbray_info">
+
+  <div id="yes_yall">
+    <h2 class="info_bar"><a href=http://tylermowbray.github.io/>home</a></h2>
+    <h2 class="info_bar"><a href=http://tylermowbray.github.io/blog/allblogs.html>blogs</a></h2>
+    <h2 class="info_bar"><a href="projects">projects</a></h2>
+    <h2 class="info_bar"><a href="about">about me</a></h2>
+  </div>
+</div>
+
+<div class="mowbray_info">
+
+    <div id="link_bar">
+      <a href="mailto:tylermowbray@gmail.com"><img alt="Social" class="social_logo"  src="gmail_logo.png"></a>
+      <a href="https://twitter.com/tmo_bray"><img alt="Social" class="social_logo" src="twitter_logo.png"></a>
+      <a href="https://plus.google.com/+TylerMowbray/"><img alt="Social" class="social_logo"  src="googleplus_logo.png"></a>
+      <a href="https://www.linkedin.com/in/tylermowbray"><img alt="Social" class="social_logo" src="linkedin_logo.png"></a>
+      <a href="https://github.com/tylermowbray"><img alt="Social" class="social_logo" src="github_logo.png"></a>
+    </div>
+  </div>
+
+
+<article>
+  <p><b><center>Variable Guide</center></b></p>
+  <p>
 Last week in my blog post, I touched on instance variables for naming and storing information as if it were being used by a Major League Scout.  In this week’s blog I wanted to touch on other variables you will come across in Ruby.   Ruby variables are referenced in many different locations in a program and the range in which a variable can be referenced is called its “scope.”
 </p>
 
@@ -49,7 +69,10 @@ Constants can be accessed from inside a class if it has been defined inside a cl
 <p>
 Local variables are only valid within a local area of code, such as a method or class. Local variables have no sigil and begin with a lowercase letter or underscore, for example: local_variable. An uninitialized local variable is treated as a call to a method with no arguments.
 </p>
+  </article>
+</body>
 
-<div class="footer"><h4>Designed by Tyler Mowbray</h4></div>
-  </section>
-</main>
+    <p id="footer">designed by tyler mowbray</p>
+
+</html>
+

@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <head>
-  <title>Class and IDs</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+
+ <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../blogstyle.css">
+  <title>Style is in Session</title>
 </head>
+<body>
+<img alt="Main Image" id="main_image" src="great_american.png">
 
-<main>
- <div class="post"><h1>Classes and ID's</h1></div>
-  <div class="subtitle"><h2>Style is in Session</h2></div>
-  <div class="home"><h4><a href=http://tylermowbray.github.io>Home</a></h4></div>
-  <div class="blogs"><h4><a href=http://tylermowbray.github.io/blog/allblogs.html>Blogs</a></h4></div>
-  <div class="social"><h4>Social Media</h4></div>
-  <div class="projects"><h4>Projects</h4></div>
-  <div class="contact"><h4>Contact Me</h4></div>
+<h3>tyler mowbray - dev bootcamp blogs</h3>
 
-  <section class="content">
-    <p id="first">
+<div class="mowbray_info">
+
+  <div id="yes_yall">
+    <h2 class="info_bar"><a href=http://tylermowbray.github.io/>home</a></h2>
+    <h2 class="info_bar"><a href=http://tylermowbray.github.io/blog/allblogs.html>blogs</a></h2>
+    <h2 class="info_bar"><a href="projects">projects</a></h2>
+    <h2 class="info_bar"><a href="about">about me</a></h2>
+  </div>
+</div>
+
+<div class="mowbray_info">
+
+    <div id="link_bar">
+      <a href="mailto:tylermowbray@gmail.com"><img alt="Social" class="social_logo"  src="gmail_logo.png"></a>
+      <a href="https://twitter.com/tmo_bray"><img alt="Social" class="social_logo" src="twitter_logo.png"></a>
+      <a href="https://plus.google.com/+TylerMowbray/"><img alt="Social" class="social_logo"  src="googleplus_logo.png"></a>
+      <a href="https://www.linkedin.com/in/tylermowbray"><img alt="Social" class="social_logo" src="linkedin_logo.png"></a>
+      <a href="https://github.com/tylermowbray"><img alt="Social" class="social_logo" src="github_logo.png"></a>
+    </div>
+  </div>
+
+
+<article>
+  <p><b><center>Style is in Session</center></b></p>
+    <p>
       Classes and ID’s are extremely useful when using CSS (Cascading Style Sheets), but many people struggle with how to use them properly.  In this short blog, I want to give you a few examples of what the best practices for each are and how to use them.
     </p>
-    <p id="second">
+    <p>
         You will want to use Classes when you need to style multiple HTML elements at the same time.  For example, lets say that we are trying to style an article for a website that is using multiple paragraphs and we need them all to display the same font, size, and color.  This isn’t like Microsoft Word where we just highlight everything and hit the Time New Roman Button, there’s a lot more that needs to be done and this is why Classes can be so handy.
     </p>
-       <p id="third">
+       <p>
         So if a Class styles multiple HTML elements, what does an ID do?  An ID Selector is used to style 1 single, unique element.  The ID selector is also defined with a “#”, while the Class selector is defined with a “.”
       </p>
 
@@ -29,14 +48,14 @@
       Let’s check out the images below for examples on using both the ID and Class selector.
       </p>
       <p>
-        <img src="classidhtml.png" alt="HTML" style="width:700px; height:400px" >
+        <img src="classidhtml.png" alt="HTML" style="width:600px; height:320px" >
       </p>
 
     <p>
     In the image above we see all of our HTML.  Can you see where the Classes and ID’s are?  There should be 3 classes listed “blue” and one ID listed “mean.”  Also notice that “blue” is used after the h2(header) and the 3rd and last p(paragraphs). This is an example of styling multiple elements of HTML at one time with Classes.  We also used the #mean as an ID to style the 4th paragraph red.  Keep in mind that nothing was done do the 2nd line, we will see what happens when no styling is added in the last image example.
     </p>
      <p>
-        <img src="classidcss.png" alt="CSS" >
+        <img src="classidcss.png" alt="CSS" style="width:25%; height:50%" >
       </p>
 
     <p>
@@ -47,12 +66,14 @@
   So now that we have looked at all of our HTML and CSS, let's take a look at the finished product and what it would look like on an actual website.
     </p>
 <p>
-        <img src="endresult.jpg" alt="End Result" >
+        <img src="endresult.jpg" alt="End Result" style="width:35%; height:60%">
       </p>
 <p>
   Pretty cool, right? Using the same classes we created, we could also change the font, add a colored background, or make things bold.  This is what Classes and Id's can do!
 </p>
-<div class="footer"><h4>Designed by Tyler Mowbray</h4></div>
+  </article>
+</body>
 
-  </section>
-</main>
+    <p id="footer">designed by tyler mowbray</p>
+
+</html>
