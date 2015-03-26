@@ -80,19 +80,6 @@ article {
 
 }
 
-article {
-  position: relative;
-  background-color: white;
-  width: 25%;
-  padding: 1em;
-  margin: auto;
-  opacity: .8;
-  border-radius: 1em;
-  margin-top: 100px;
-  color: #B80000;
-  overflow-y: auto;
-
-}
 
 #footer {
   position: relative;
