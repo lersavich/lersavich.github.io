@@ -67,12 +67,47 @@ h3  {
 
 }
 
+article {
+  position: relative;
+  background-color: #B80000;
+  width: 25%;
+  padding: 1em;
+  margin: auto;
+  opacity: .8;
+  border-radius: 1em;
+  margin-top: 100px;
+  color: white;
+
+}
+
 #footer {
   position: relative;
+  width: 100px;
+  height: 30px
   font-family: futura;
+  float: right;
   text-align: center;
   color: white;
-  bottom: -850px;
+  bottom: -832px;
+  right: 8px;
+  opacity: .6;
+  background-color: #B80000;
+  border-radius: .5em;
+}
+
+#footer2 {
+  position: relative;
+  width: 100px;
+  height: 30px
+  font-family: futura;
+  float: right;
+  text-align: center;
+  color: white;
+  bottom: -195px;
+  right: 8px;
+  opacity: .6;
+  background-color: #B80000;
+  border-radius: .5em;
 }
 
 a:visited {
@@ -84,82 +119,7 @@ color: black;
 }
 
 
-.post {
-  text-align: center;
-  width: 100%;
-  background-color:#0A1040;
-  font-family: futura, sans-serif;
-  color:white;
 
-}
-
-.subtitle {
-  text-align: center;
-  width: 100%;
-  background-color:#0A1040;
-  font-family: futura, sans-serif;
-  color:white;
-}
-
-.about {
-  width: 200px;
-  height:50px;
-  background-color: #0A1040 ;
-  color:white;
-   font-family: futura, sans-serif;
-  text-align: center;
-}
-
-.cultblogs {
-  width: 200px;
-  height:50px;
-  background-color: #0A1040 ;
-  color: white;
-   font-family: futura, sans-serif;
-  position: relative;
-  text-align: center;
-
-}
-.techblogs {
-  width: 200px;
-  height:50px;
-  background-color: #0A1040 ;
-  color: white;
-   font-family: futura, sans-serif;
-  position: relative;
-  text-align: center;
-
-}
-
-.contact {
-  width: 200px;
-  height:50px;
-  background-color: #0A1040 ;
-  color:white;
-   font-family: futura, sans-serif;
-  text-align: center;
-  position: relative;
-}
-
-.projects {
-  width: 200px;
-  height:50px;
-  background-color: #0A1040 ;
-  color:white;
-   font-family: futura, sans-serif;
-  text-align: center;
-  position: relative;
-}
-
-.social {
-  width: 200px;
-  height:50px;
-  background-color: #0A1040 ;
-  color:white;
-   font-family: futura, sans-serif;
-  text-align: center;
-  position: relative;
-}
 
 .footer{
   width: 100%;
@@ -170,10 +130,13 @@ color: black;
   bottom: 0;
   left: 0;
 
-li {
-  background-color: #0A1040;
+#all_blogs {
+position: relative;
+  background-color: yellow;
   text-align: center;
-  margin-left: 50px;
+  margin-top: -1000px;
+  color: yellow;
+
 }
 
 
@@ -186,6 +149,10 @@ a:visited {
 
 a:hover {
 
-    text-decoration: none;
+    color: red;
     decoration: none;
+}
+
+a:links {
+text-decoration: none;
 }
