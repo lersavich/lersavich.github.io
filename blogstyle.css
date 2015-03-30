@@ -41,6 +41,9 @@ margin-right: 10px;
 
 }
 
+.change_color {
+  border: 2px solid black;
+}
 
 .info_bar {
   position: relative;
