@@ -74,6 +74,8 @@ h3  {
 article {
   position: relative;
   background-color: white;
+  font-family: futura;
+  font-size: 14px;
 
   padding: 1em;
   margin: auto;
