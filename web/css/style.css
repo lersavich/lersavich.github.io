@@ -164,7 +164,7 @@ body {
 }
 /* PORTFOLIO */
 .portfolio{
-	background: #000000;
+	background: #16174f;
 	margin-top: -5px;
 	padding: 3% 0%;
 	text-align: center;
@@ -208,7 +208,7 @@ body {
 }
 /* news */
 .news{
-	background: #CDCDCD;
+	background: #f6f1ed;
 	margin-top: -5px;
 	padding: 3% 0%;
 	text-align: center;
@@ -483,7 +483,7 @@ display:none;
 /*---//End-trust-----*/
 /* bio */
 .bio{
-	background: #E2534B;
+	background: #963019;
 	margin-top: -5px;
 	padding: 3% 0%;
 	text-align: center;
