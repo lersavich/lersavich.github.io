@@ -77,7 +77,7 @@ article {
   margin: auto;
   opacity: .8;
   border-radius: 1em;
-  margin-top: 225gpx;
+  margin-top: 1250px;
   color: #B80000;
 
 }
@@ -146,3 +146,17 @@ position: relative;
 
 }
 
+article2 {
+  position: relative;
+  background-color: white;
+  font-family: futura;
+  font-size: 13px;
+  width: 90%;
+  padding: 2em;
+  margin: auto;
+  opacity: .8;
+  border-radius: 1em;
+  margin-top: 100px;
+  color: #B80000;
+
+}
