@@ -324,7 +324,7 @@ body {
 	font-size: 1em;
 	text-align:left;
 	font-weight: 600;
-	color:#16174f;
+	color:#252839;
 	margin-bottom: 4%;
 }
 .newsright ul li{
@@ -346,7 +346,7 @@ body {
 	transition: all 0.2s ease-in-out;
 }
 .newsright ul li a:hover{
-	background:#963019;
+	background:#f2b632;
 }
 /* top-grids */
 .top-grids
