@@ -46,13 +46,13 @@
 }
 .flexy-menu>li>a:hover
 {
-	color:#65BA99;
-	border-bottom: 1px solid #65BA99;
+	color:#963019;
+	border-bottom: 1px solid #963019;
 }
 .flexy-menu>li.active>a
 {
-	color:#65BA99;
-	border-bottom: 1px solid #65BA99;
+	color:#963019;
+	border-bottom: 1px solid #963019;
 }
 
 .flexy-menu li.right{
@@ -198,7 +198,7 @@
 		}
 	.flexy-menu>li>a:hover {
 		color: #FFF;
-		background: #65BA99;
+		background: #16174f;
 	}
 	.flexy-menu>li>a:hover {
 		border-bottom: none;
