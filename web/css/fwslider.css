@@ -20,7 +20,7 @@ body > div.images-slider {
 #fwslider .slidePrev {
     position: absolute;
     top:50%;
-    left:-50px;   
+    left:-50px;
     z-index: 10;
 }
 #fwslider .slidePrev span {
@@ -35,7 +35,7 @@ body > div.images-slider {
 #fwslider .slideNext {
     position: absolute;
     top:50%;
-    right:-50px;  
+    right:-50px;
     z-index: 10;
 }
 #fwslider .slideNext span {
@@ -95,7 +95,7 @@ body > div.images-slider {
     top:0;
     left:0;
     position: absolute;
-    width:100%;
+    width:115%;
 }
 #fwslider .slide_content_wrap { /* Slider Text Content Container Style */
     max-width: 1000px;
@@ -129,7 +129,7 @@ body > div.images-slider {
 	margin: 6.5% auto 0;
 	}
 	#fwslider .title {
-		font-size: 4em;
+		font-size: 2em;
 		padding: 14px 143px 0;
 	}
 	#fwslider .description {
@@ -190,7 +190,7 @@ body > div.images-slider {
 }
 @media only screen and (max-width:480px){
 	 #fwslider .title { font-size:1.6em; }
-     #fwslider .description { 
+     #fwslider .description {
      	font-size: 0.875em;
 		padding: 2em 0 0.2em;
 		width: 70%;
@@ -206,7 +206,7 @@ body > div.images-slider {
 }
 @media only screen and (max-width:320px){
 	 #fwslider .title { font-size: 1.2em; }
-     #fwslider .description { 
+     #fwslider .description {
      	font-size: 0.8em;
 		padding: 2.5em 0 0.2em;
 		width: 90%;
