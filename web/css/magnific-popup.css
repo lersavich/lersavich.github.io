@@ -1,6 +1,6 @@
 /*********pop_up_protfolio*****/
 /* Magnific Popup CSS */
-.mfp-bg {	
+.mfp-bg {
    top: 0;
    left: 0;
    width: 100%;
@@ -20,7 +20,7 @@
    z-index: 1043;
    position: fixed;
    outline: none !important;
-   -webkit-backface-visibility: hidden; 
+   -webkit-backface-visibility: hidden;
  }
 .mfp-hide {
   display: none !important;
@@ -517,7 +517,7 @@ button::-moz-focus-inner {
 	padding:2em 1em;
 	display: block;
 	color: #FFF;
-	font-family:'Open Sans', sans-serif; 
+	font-family:'Open Sans', sans-serif;
 }
 .cart a{
 	color: #FFF;
@@ -525,12 +525,12 @@ button::-moz-focus-inner {
 	font-size: 1.1em;
 	padding: 0.4em 2em;
 	font-weight:500;
-	font-family:'Open Sans', sans-serif; 
+	font-family:'Open Sans', sans-serif;
 	border-radius: 3px;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all; 
+	-o-transition: 0.5s all;
 }
 /*----*/
 /*------------pricing-tabels--------------------*/
@@ -541,7 +541,7 @@ button::-moz-focus-inner {
 .payment-online-form-left h4{
 	font-size: 1.8em;
 	color: #222222;
-	padding: 0.5em 0;	
+	padding: 0.5em 0;
 }
 .payment-online-form-left span{
 	vertical-align: middle;
@@ -582,7 +582,7 @@ button::-moz-focus-inner {
 }
 .payment-online-form-left  input[type="text"]:active, .payment-online-form-left input[type="text"]:hover {
 	border-color:#485460 ;
-	color:#49CBCD; 
+	color:#49CBCD;
 }
 .shipping{
 	width: 32px;
