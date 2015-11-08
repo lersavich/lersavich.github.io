@@ -232,7 +232,7 @@ body {
 	font-size: 0.8755em;
 	color:#fff;
 	padding:1px 10px;
-	background:#57A385;
+	background:#252839;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -240,13 +240,13 @@ body {
 }
 .left h6{
 	float: right;
-	color: #E2534B;
+	color: #677077;
 	display: inline-flex;
 }
 .left h6 a{
 	font-style:italic;
 	font-family: 'Open Sans', sans-serif;
-	color: #E2534B;
+	color: #677077;
 	font-size: 0.8755em;
 	padding: 0 4%;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -255,7 +255,7 @@ body {
 	transition: all 0.2s ease-in-out;
 }
 .left h6 a:hover{
-	color: #59A386;
+	color: #677077;
 }
 .left p{
 	font-family: 'Open Sans', sans-serif;
@@ -264,7 +264,7 @@ body {
 	padding: 2% 0;
 }
 .left p a{
-	color: #59A386;
+	color: #252839;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -303,7 +303,7 @@ body {
 	margin: 0;
 }
 .left p.button a{
-	color: #E2534B;
+	color: #252839;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -313,7 +313,7 @@ body {
 	border:none;
 }
 .left p.button a:hover{
-	color: #57A385;
+	color: #252839;
 }
 /* right */
 .newsright{
@@ -338,7 +338,7 @@ body {
 	color:#ECECEC;
 	padding:8px 15px;
 	text-align:left;
-	background:#16174f;
+	background:#252839;
 	margin-bottom: 12%;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -414,7 +414,7 @@ body {
 	line-height: 1.5em;
 }
 .top-grid2 p.b{
-	color: #E2534B;
+	color: #677077;
 }
 /*-----*/
 .flexiselDemo3 {
