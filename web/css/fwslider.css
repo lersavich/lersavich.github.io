@@ -81,14 +81,14 @@ body > div.images-slider {
 #fwslider .timer {
     height:4px;
     width:40px;
-    background-color: #fff;
+    background-color: #2C3E50;
     float:left;
     margin-right: 10px;
 }
 #fwslider .progress {
     height:4px;
     width:0%;
-    background-color:#2C3E50;
+    background-color:#ffffff;
     float:left;
 }
 #fwslider .slide_content {
@@ -114,11 +114,11 @@ body > div.images-slider {
 }
 #fwslider .description {
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: #f2b632;
+	color: #ffffff;
 	font-size: 2em;
 	margin: 2%;
 	font-weight: 600;
-}
+
 /* ------------------------------- 5. Media Query Max Width 719 ------------------------------- */
 @media only screen and (max-width:1366px) {
     #fwslider .slide_content_wrap { display:block; }
@@ -126,7 +126,6 @@ body > div.images-slider {
     #fwslider .slide_content {cursor: pointer;}
     #fwslider .slide_content_wrap {
 	max-width: 1280px;
-	margin: 6.5% auto 0;
 	}
 	#fwslider .title {
 		font-size: 2em;
