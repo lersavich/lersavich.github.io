@@ -801,10 +801,12 @@ a:link {
 	color: #f2b632;
 }
 
-a:hover {
-	color: #252839;
-}
-
 a:visited {
 	color: #f2b632;
 }
+
+a:hover {
+	color: #252839;
+	text-decoration: underline;
+}
+
