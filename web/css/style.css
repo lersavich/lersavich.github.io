@@ -796,3 +796,11 @@ display:none;
 		margin-top: 5px;
 	}
 }
+
+a:link {
+	color: #f2b632;
+}
+
+a:hover {
+	color: #252839;
+}
