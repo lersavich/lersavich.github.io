@@ -804,3 +804,7 @@ a:link {
 a:hover {
 	color: #252839;
 }
+
+a:visited {
+	color: #f2b632;
+}
