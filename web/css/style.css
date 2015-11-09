@@ -53,9 +53,9 @@ body {
 	text-indent: 100%;
 	background: url(../images/top_move.png) no-repeat right top;
 }
-.nav_wrapper {
+.nav_wrapper { /* Main Menu Bar */
 	width: 100%;
-	background: #252222;
+	background: #f2b632;
 	z-index: 100;
 	display: inline-flex;
 }
@@ -122,11 +122,11 @@ body {
 	float:left;
 	margin-left: 1.2em;
 }
-.social_icons li  a span{
+.social_icons li  a span{ /*Linked in and Twitter Buttons */
 	width: 30px;
 	height: 30px;
-	background: url(../images/socil.png) no-repeat #fff;
-	border: 3px solid #fff;
+	background: url(../images/socil.png) no-repeat #252839 ;
+	border: 3px solid #f2b632;
 	display: block;
 	border-radius: 30em;
 }
@@ -137,6 +137,7 @@ body {
 .social_icons ul .in a span:hover
 {
 	background-position: -4px -23px;
+
 }
 .social_icons ul .pro a span
 {
@@ -145,6 +146,7 @@ body {
 .social_icons ul .pro a span:hover
 {
 	background-position: -32px -23px ;
+
 }
 .social_icons ul .twitter a span
 {
@@ -153,6 +155,7 @@ body {
 .social_icons ul .twitter a span:hover
 {
 	background-position: -64px -23px ;
+
 }
 .social_icons ul .facebook a span
 {

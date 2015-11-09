@@ -27,7 +27,7 @@
 	line-height:59px;
 	position:relative;
 }
-.flexy-menu>li>a{
+.flexy-menu>li>a{ /*News, Bio, Resume on Menu Bar Font */
 	display: block;
 	color: #FFF;
 	margin: 11px 13px;
@@ -46,13 +46,13 @@
 }
 .flexy-menu>li>a:hover
 {
-	color:#f2b632;
-	border-bottom: 1px solid #f2b632;
+	color:#252839;
+	border-bottom: 1px solid #252839;
 }
 .flexy-menu>li.active>a
 {
-	color:#f2b632;
-	border-bottom: 1px solid #f2b632;
+	color:#252839;
+	border-bottom: 1px solid #252839;
 }
 
 .flexy-menu li.right{
@@ -88,7 +88,7 @@
 	font-size: 13px;
 	padding:10px 20px;
 	width:100%;
-	color:#dedede;
+	color:#252839;
 	text-decoration:none;
 	display:inline-block;
 	float:left;clear:both;
