@@ -119,7 +119,6 @@ body > div.images-slider {
 	margin: 2%;
 	font-weight: 600;
 }
-
 /* ------------------------------- 5. Media Query Max Width 719 ------------------------------- */
 @media only screen and (max-width:1366px) {
     #fwslider .slide_content_wrap { display:block; }
