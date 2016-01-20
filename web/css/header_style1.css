@@ -47,12 +47,12 @@
 .flexy-menu>li>a:hover
 {
 	color:#252839;
-	border-bottom: 1px solid #252839; /*Changes colors to fonts on Main Menu Bar */
+	border-bottom: 0px solid #252839; /*Changes colors to fonts on Main Menu Bar */
 }
 .flexy-menu>li.active>a
 {
 	color:#252839;
-	border-bottom: 1px solid #252839;  /*Changes colors to fonts on Main Menu Bar */
+	border-bottom: 0px solid #252839;  /*Changes colors to fonts on Main Menu Bar */
 }
 
 .flexy-menu li.right{

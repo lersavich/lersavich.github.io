@@ -96,6 +96,7 @@ a:visited {
 
     text-decoration: none;
     decoration: none
+    hover: yellow;
 }
 
 a:hover {
