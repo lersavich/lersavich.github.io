@@ -55,7 +55,7 @@ body {
 }
 .nav_wrapper { /* Main Menu Bar */
 	width: 100%;
-	background: #f2b632;
+	background: #4cb5f5;
 	z-index: 100;
 	display: inline-flex;
 }
@@ -167,14 +167,14 @@ body {
 }
 /* PORTFOLIO */
 .portfolio{
-	background: #677077;
+	background: #B7B8B6;
 	margin-top: -5px;
 	padding: 3% 0%;
 	text-align: center;
 }
 .portfolio h3 {
 	font-size: 2em;
-	color: #fff;
+	color: #252839;
 	font-weight: 600;
 	text-align: center;
 }
@@ -197,7 +197,7 @@ body {
 	padding: 5% 0;
 }
 .message h3 {
-	color: #ffffff;
+	color: #252839;
 	font-size: 1.5em;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -211,7 +211,7 @@ body {
 }
 /* news */
 .news{
-	background: #f2b632;
+	background: #B7B8B6;
 	margin-top: -5px;
 	padding: 3% 0%;
 	text-align: center;
@@ -487,14 +487,14 @@ display:none;
 /*---//End-trust-----*/
 /* bio */
 .bio{
-	background: #252839;
+	background: #B7B8B6;
 	margin-top: -5px;
 	padding: 3% 0%;
 	text-align: center;
 }
 .bio h3 {
 	font-size: 2em;
-	color: #FFFFFF;
+	color: #252839;
 	font-weight: 600;
 	text-align: center;
 	margin-bottom: 4%;
@@ -542,7 +542,7 @@ display:none;
 }
 .contact h3 {
 	font-size: 2em;
-	color: #252839;
+	color: #FFF;
 	font-weight: 600;
 	text-align: center;
 	margin-bottom: 4%;
@@ -801,15 +801,15 @@ display:none;
 }
 
 a:link {
-	color: #f2b632;
+	color: #252839;
 }
 
 a:visited {
-	color: #f2b632;
+	color: #252839;
 }
 
 a:hover {
-	color: #252839;
+	color: #4cb5f5;
 	text-decoration: underline;
 }
 
